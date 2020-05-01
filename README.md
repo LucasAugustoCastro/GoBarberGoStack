@@ -4,20 +4,19 @@
   Um app para facilitar na hora de marcar um horario com algum barbeiro, podendo ver os horarios disponiveis de cada barbeiro cadastrado no app via app Mobile.
   O barbeiro tambem pode via aplicação Web fazer o seu cadastro, e colocar horario disponiveis
 
-  Atualmente o que o backend esta fazendo as rotas de marcar um horario, a partir do POST "/appointments" 
-  sendo passados o provider_id, que é o id do usario que esta oferecendo o serviço, e o date, que é a data que o usuario queira marcar
+  - Atualmente o que o backend esta fazendo as rotas de marcar um horario, a partir do POST "/appointments" sendo passados o provider_id, que é o id do usario que esta oferecendo o serviço, e o date, que é a data que o usuario queira marcar
 
-  <img src="https://i.imgur.com/Xv85CAX.png">
+ <img src="https://i.imgur.com/Xv85CAX.png">
 
 
-  A listagem esta sendo feita a partir do GET "/appointments"
+  - A listagem esta sendo feita a partir do GET "/appointments"
+  <img src="https://i.imgur.com/p5RbbGy.png">
 
-  Para fazer o cadastro no App é por meio do POST "/users" sendo passados o name, email e password
-  Podendo tambem fazer a atualização do avatar a partir no PATCH "/users/avatar" sendo passado uma imagem como Multipart Form.
-  No codigo a imagem é armazenada usando o multer
+  - Para fazer o cadastro no App é por meio do POST "/users" sendo passados o name, email e password podendo tambem fazer a atualização do avatar a partir no PATCH "/users/avatar" sendo passado uma imagem como Multipart Form. No codigo a imagem é armazenada usando o multer
   <img src="https://i.imgur.com/rH2GUOa.png">
 
-  Para logar é mandado email e usuario a partir do POST "/sessions"
+  - Para logar é mandado email e usuario a partir do POST "/sessions"
+  <img src="https://i.imgur.com/Ca0ezvx.png">
   
   **O base_url usado no Insomnia significa http://localhost:3333**
 
