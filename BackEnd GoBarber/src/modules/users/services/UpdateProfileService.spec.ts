@@ -34,7 +34,7 @@ describe('UpdateProfile', () => {
     expect(updatedUser.email).toBe('johntre@exemple.com');
   });
   it('shoud not be able to update the profile from non-existing user', async () => {
-    expect(
+    await expect(
       updateProfile.execute({
         user_id: 'non-existing-user-id',
         name: 'Test',
