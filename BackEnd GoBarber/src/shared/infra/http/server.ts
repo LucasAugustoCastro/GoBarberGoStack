@@ -1,7 +1,9 @@
 import 'reflect-metadata';
+import 'dotenv/config';
 
 import express, { Request, Response, NextFunction } from 'express';
 import cors from 'cors';
+import { errors } from 'celebrate';
 import 'express-async-errors';
 
 import uploadConfig from '@config/upload';
@@ -24,6 +26,8 @@ app.use(routes);
  * possuem 4 parametros
  */
 // app.use((err,request,response,next))
+
+app.use(errors());
 app.use((err: Error, request: Request, response: Response, _: NextFunction) => {
   // caso seja um erro gerado pela minha aplicaçao entrao no if
   if (err instanceof AppError) {
