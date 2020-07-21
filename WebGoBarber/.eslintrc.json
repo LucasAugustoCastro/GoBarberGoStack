@@ -39,7 +39,10 @@
       "no-unused-expressions": "off",
       "react/jsx-filename-extension": [1, { "extensions": [".tsx"] }],
       "import/prefer-default-export": "off",
+      "import/no-duplicates": "off",
       "@typescript-eslint/camelcase": "off",
+      "@typescript-eslint/arrow-parens":"off",
+      "eslint arrow-parens": "off",
       "@typescript-eslint/explicit-function-return-type": [
         "error",
         {
