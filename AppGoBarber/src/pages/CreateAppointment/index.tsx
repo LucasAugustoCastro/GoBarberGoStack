@@ -155,6 +155,10 @@ const CreateAppointment: React.FC = () => {
     }
   }, [navigate, selectedDate, selectedHour, selectedProvider]);
 
+  const showDateSelected = useMemo(() => {
+    return format(selectedDate, "'Dia selecionado: 'dd'/'MM'/'yyyy");
+  }, [selectedDate]);
+
   return (
     <Container>
       <Header>
@@ -189,7 +193,7 @@ const CreateAppointment: React.FC = () => {
         </ProvidersListContainer>
 
         <Calendar>
-          <Title>Escolha a data</Title>
+          <Title>{showDateSelected}</Title>
 
           <OpenDatePickerButton onPress={handleToggleDatePicker}>
             <OpenDatePickerButtonText>
