@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to GoBarber 👋</h1>
+<h1 align="center">Bem-vindo ao GoBarber 👋</h1>
 <p>
   <a href="#" target="_blank">
     <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
@@ -7,7 +7,7 @@
 
 > Um app para facilitar na hora de marcar um horário com algum barbeiro, podendo ver os horários disponíveis de cada barbeiro cadastrado no app, via app Mobile. O barbeiro também pode via aplicação Web ver os seus agendamentos, podendo escolher os dias
 
-## 🏗 Installation
+## 🏗 Instalação
 - Possuir [NodeJs]() e [Yarn]() instalado, clone o projeto com os seguintes comandos:
   ```sh
   git clone https://github.com/LucasAugustoCastro/GoBarberGoStack.git
@@ -28,7 +28,7 @@
     cp .env.example .env
     ```
     Não se esqueca de colocar novos valores após copiar os exemplos
-## 🚴‍♂️️ Getting Started
+## 🚴‍♂️️ Iniciando o projeto
 - Use o comando **yarn** para fazer a instalaçao das dependencia (lembre-se que sera necessario rodar esse comando nas tres pastas)
 - Após rodar o yarn vá até a pasta BackEnd GoBarber e rode o seguinte comando para criar as tabelas no banco:
     ```sh 
@@ -36,7 +36,7 @@
     ```
 
 
-## 👀️ Usage
+## 👀️ Rodar o projeto
 Para rodar o Back-end:
 
 ```sh
@@ -48,13 +48,13 @@ Para rodar o Front-end e o Mobile:
 yarn start
 ```
 
-## 🍵️ Run tests
+## 🍵️ Rodar os testes
 
 ```sh
 yarn test
 ```
 
-## Author
+## Autor
 
 👤 **Lucas Castro**
 
@@ -62,9 +62,6 @@ yarn test
 * Github: [@LucasAugustoCastro](https://github.com/LucasAugustoCastro)
 * LinkedIn: [@https:\/\/www.linkedin.com\/in\/lucasaugustocastro\/](https://linkedin.com/in/https:\/\/www.linkedin.com\/in\/lucasaugustocastro\/)
 
-## Show your support
+## Montre seu apoio
 
-Give a ⭐️ if this project helped you!
-
-***
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
+Dê uma ⭐️ se o projeto ajudou você!
