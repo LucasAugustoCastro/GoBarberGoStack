@@ -65,3 +65,8 @@ yarn test
 ## Montre seu apoio
 
 Dê uma ⭐️ se o projeto ajudou você!
+
+## 📝 License
+
+Copyright © 2020 [Lucas Castro](https://github.com/LucasAugustoCastro).<br />
+This project is [MIT](https://github.com/LucasAugustoCastro/GoBarberGoStack/blob/master/LICENSE) licensed.
