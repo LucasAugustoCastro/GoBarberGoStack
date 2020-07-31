@@ -44,7 +44,7 @@ interface ProfileFormData {
 const Profile: React.FC = () => {
   const { user, updateUser, signOut } = useAuth();
   const formRef = useRef<FormHandles>(null);
-  const navigation = useNavigation();
+  const { navigate, goBack } = useNavigation();
 
   const emailInputRef = useRef<TextInput>(null);
   const oldPasswordInputRef = useRef<TextInput>(null);
@@ -108,7 +108,7 @@ const Profile: React.FC = () => {
 
         Alert.alert('Perfil atualizado com sucesso!');
 
-        navigation.goBack();
+        goBack();
       } catch (err) {
         if (err instanceof Yup.ValidationError) {
           const erros = getValidationErrors(err);
@@ -122,7 +122,7 @@ const Profile: React.FC = () => {
         );
       }
     },
-    [navigation, updateUser],
+    [goBack, updateUser],
   );
 
   const handleUpdateAvatar = useCallback(() => {
@@ -160,12 +160,12 @@ const Profile: React.FC = () => {
 
   const handleSignOut = useCallback(() => {
     signOut();
-    navigation.navigate('signin');
-  }, [signOut, navigation]);
+    // navigate('SignIn');
+  }, [signOut]);
 
   const handleGoBack = useCallback(() => {
-    navigation.goBack();
-  }, [navigation]);
+    goBack();
+  }, [goBack]);
 
   return (
     <>
