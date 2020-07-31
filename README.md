@@ -1,6 +1,6 @@
 <p align="center">
   
-  <img src=".github/Logo.svg" width="900px">
+  <img src=".github/Logo.svg" width="2000px">
 </p>
 
 <h1></h1>
@@ -25,9 +25,9 @@
   <img src=".github/WebAppGoBarbar.gif">
 </p>
 
-<p align="center">
+<p align="center" >
   
-  <img src=".github/MobileAppGoBarber.gif">
+  <img src=".github/MobileAppGoBarber.gif" height="500px">
 </p>
 
 
