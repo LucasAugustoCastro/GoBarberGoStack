@@ -1,10 +1,25 @@
-<h1 align="center">Bem-vindo ao GoBarber 👋</h1>
+<p align="center">
+  
+  <img src=".github/Logo.png">
+</p>
+
+<h1></h1>
+
 <p>
+  
+  <a href="#" target="_blank">
+    <img alt="Author" src="https://img.shields.io/badge/author-LucasAugustoCastro-CF0000?style=flat-square" />
+  </a>
+  <a href="#" target="_blank">
+    <img alt="Author" src="https://img.shields.io/github/languages/count/LucasAugustoCastro/GoBarberGoStack?color=%23D54F44&style=flat-square" />
+  </a>
+
   <a href="#" target="_blank">
     <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
   </a>
 </p>
-
+ 
+>Um app para facilitar na hora de marcar um horário com algum barbeiro, podendo ver os horários disponíveis de cada barbeiro cadastrado no app, via app Mobile. O barbeiro também pode via aplicação Web ver os seus agendamentos, podendo escolher os dias
 <p align="center">
   
   <img src=".github/WebAppGoBarbar.gif">
@@ -15,8 +30,7 @@
   <img src=".github/MobileAppGoBarber.gif">
 </p>
 
-## 📖️ Sobre
-Um app para facilitar na hora de marcar um horário com algum barbeiro, podendo ver os horários disponíveis de cada barbeiro cadastrado no app, via app Mobile. O barbeiro também pode via aplicação Web ver os seus agendamentos, podendo escolher os dias
+
 
 ## 🏗 Instalação
 - Possuir [NodeJs]() e [Yarn]() instalado, clone o projeto com os seguintes comandos:
