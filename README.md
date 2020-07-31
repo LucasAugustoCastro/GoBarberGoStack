@@ -1,6 +1,6 @@
 <p align="center">
   
-  <img src=".github/Logo.svg" size="2000px">
+  <img src=".github/Logo.svg" width="900px">
 </p>
 
 <h1></h1>
