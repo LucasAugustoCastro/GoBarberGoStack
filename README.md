@@ -30,10 +30,15 @@
   <img src=".github/MobileAppGoBarber.gif" height="500px">
 </p>
 
+## 💻️ Techs
+- [NodeJs](https://nodejs.org/en/)
+- Typescript
+- [ReactJS](https://pt-br.reactjs.org/)
+- [ReactNative](https://reactnative.dev/)
 
 
 ## 🏗 Instalação
-- Possuir [NodeJs]() e [Yarn]() instalado, clone o projeto com os seguintes comandos:
+- Possuir [NodeJs](https://nodejs.org/en/) e [Yarn](https://classic.yarnpkg.com/pt-BR/docs/install/) instalado, clone o projeto com os seguintes comandos:
   ```sh
   git clone https://github.com/LucasAugustoCastro/GoBarberGoStack.git
   ```
