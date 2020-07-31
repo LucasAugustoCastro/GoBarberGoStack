@@ -5,6 +5,8 @@
   </a>
 </p>
 
+![App mobile GoBarber](.github/MobileAppGoBarber.gif)
+
 > Um app para facilitar na hora de marcar um horário com algum barbeiro, podendo ver os horários disponíveis de cada barbeiro cadastrado no app, via app Mobile. O barbeiro também pode via aplicação Web ver os seus agendamentos, podendo escolher os dias
 
 ## 🏗 Instalação
