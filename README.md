@@ -7,14 +7,14 @@
 
 <p>
   
-  <a href="#" target="_blank">
+  <a href="https://github.com/LucasAugustoCastro" target="_blank">
     <img alt="Author" src="https://img.shields.io/badge/author-LucasAugustoCastro-CF0000?style=flat-square" />
   </a>
   <a href="#" target="_blank">
     <img alt="Author" src="https://img.shields.io/github/languages/count/LucasAugustoCastro/GoBarberGoStack?color=%23D54F44&style=flat-square" />
   </a>
 
-  <a href="#" target="_blank">
+  <a href="https://github.com/LucasAugustoCastro/GoBarberGoStack/blob/master/LICENSE" target="_blank">
     <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
   </a>
 </p>
