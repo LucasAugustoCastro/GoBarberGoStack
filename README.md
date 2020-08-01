@@ -7,14 +7,14 @@
 
 <p>
   
-  <a href="#" target="_blank">
+  <a href="https://github.com/LucasAugustoCastro" target="_blank">
     <img alt="Author" src="https://img.shields.io/badge/author-LucasAugustoCastro-CF0000?style=flat-square" />
   </a>
   <a href="#" target="_blank">
     <img alt="Author" src="https://img.shields.io/github/languages/count/LucasAugustoCastro/GoBarberGoStack?color=%23D54F44&style=flat-square" />
   </a>
 
-  <a href="#" target="_blank">
+  <a href="https://github.com/LucasAugustoCastro/GoBarberGoStack/blob/master/LICENSE" target="_blank">
     <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
   </a>
 </p>
@@ -30,10 +30,15 @@
   <img src=".github/MobileAppGoBarber.gif" height="500px">
 </p>
 
+## 💻️ Techs
+- [NodeJs](https://nodejs.org/en/)
+- Typescript
+- [ReactJS](https://pt-br.reactjs.org/)
+- [ReactNative](https://reactnative.dev/)
 
 
 ## 🏗 Instalação
-- Possuir [NodeJs]() e [Yarn]() instalado, clone o projeto com os seguintes comandos:
+- Possuir [NodeJs](https://nodejs.org/en/) e [Yarn](https://classic.yarnpkg.com/pt-BR/docs/install/) instalado, clone o projeto com os seguintes comandos:
   ```sh
   git clone https://github.com/LucasAugustoCastro/GoBarberGoStack.git
   ```
